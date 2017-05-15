@@ -4,7 +4,7 @@ var { pull } = require('pull-stream')
 var generator = require('pull-audio-generator')
 var speaker = require('../')
 
-test('plays 5 second static', t => {
+test('plays 5 second sine', t => {
   t.plan(1)
 
   pull(
